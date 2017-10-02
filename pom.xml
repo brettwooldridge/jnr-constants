@@ -6,13 +6,13 @@
     <version>7</version>
   </parent>
 
-  <groupId>com.github.jnr</groupId>
+  <groupId>com.zaxxer</groupId>
   <artifactId>jnr-constants</artifactId>
   <packaging>jar</packaging>
   <version>0.9.10-SNAPSHOT</version>
   <name>jnr-constants</name>
   <description>A set of platform constants (e.g. errno values)</description>
-  <url>http://github.com/jnr/jnr-constants</url>
+  <url>http://github.com/brettwooldridge/jnr-constants</url>
 
   <licenses>
     <license>
@@ -23,9 +23,9 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git@github.com:jnr/jnr-constants.git</connection>
-    <developerConnection>scm:git:git@github.com:jnr/jnr-constants.git</developerConnection>
-    <url>git@github.com:jnr/jnr-constants.git</url>
+    <connection>scm:git:git@github.com:brettwooldridge/jnr-constants.git</connection>
+    <developerConnection>scm:git:git@github.com:brettwooldridge/jnr-constants.git</developerConnection>
+    <url>git@github.com:brettwooldridge/jnr-constants.git</url>
   </scm>
 
   <developers>
@@ -38,6 +38,11 @@
       <id>headius</id>
       <name>Charles Oliver Nutter</name>
       <email>headius@headius.com</email>
+    </developer>
+    <developer>
+      <id>brettwooldridge</id>
+      <name>Brett Wooldridge</name>
+      <email>brettwooldridge+git@gmail.com</email>
     </developer>
   </developers>
 
