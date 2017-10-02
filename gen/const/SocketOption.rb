@@ -2,7 +2,11 @@ require_relative '../../gen/ConstGenerator'
 def gen_socketoption_java(options)
   ConstGenerator.new 'platform.socket_option', options do |cg|
     cg.include "sys/socket.h"
+    cg.include "netinet/in.h"
     %w[
+      IP_RECVTTL
+      IP_RETOPTS
+      IP_TTL
       SO_DEBUG
       SO_ACCEPTCONN
       SO_REUSEADDR
